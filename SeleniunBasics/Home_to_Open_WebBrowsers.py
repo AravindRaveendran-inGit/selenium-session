@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.keys import Keys
+
 
 # creating a service path to open the webdriver
 # chrome_service = Service("C:\selenium\chromedriver_win32\chromedriver")
