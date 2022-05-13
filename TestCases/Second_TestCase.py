@@ -26,14 +26,14 @@ driver.find_element(by=By.NAME, value="txtUsername").send_keys("Admin")
 driver.find_element(by=By.ID, value="txtPassword").send_keys("admin123")
 driver.find_element(by=By.XPATH, value='//*[@id="btnLogin"]').click()
 
-# act_title = driver.title
-# exct_title = "OrangeHRM"
-#
-# if act_title==exct_title:
-#     print("testcase passed")
-# else:
-#     print("testcase failed")
-#
-# driver.close()
+act_title = driver.title
+exct_title = "OrangeHRM"
+
+if act_title==exct_title:
+    print("testcase passed")
+else:
+    print("testcase failed")
+
+driver.close()
 
 
