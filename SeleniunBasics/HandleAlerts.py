@@ -9,7 +9,7 @@ driver.maximize_window()
 driver.get('https://the-internet.herokuapp.com/javascript_alerts')
 
 btn = driver.find_element(by=By.XPATH, value="//button[contains(text(),'Click for JS Prompt')]")
-btn.click()
+btn.click() 
 
 alertwindow = driver.switch_to.alert
 print(alertwindow.text)
